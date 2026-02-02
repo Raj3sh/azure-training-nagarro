@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AzAppApplication<az-app>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.nagarro.training.rajesh.az_app.AzAppApplication",
+            "projectName": "az-app",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Attach to Java Functions",
+            "type": "java",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "port": 5005,
+            "preLaunchTask": "func: host start"
+        }
+    ],
+    "version": "0.2.0"
+}
